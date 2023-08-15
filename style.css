@@ -1,0 +1,83 @@
+body {
+  font-size: 50px;
+}
+
+.calculator {
+  background-color: rgb(37, 37, 37);
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.brand {
+  font-size: 0.5em;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+.darkModeTxt {
+  font-size: 0.4em;
+  color: white;
+  display: inline-block;
+}
+
+.screen {
+  background-color: rgb(138, 190, 82);
+  font-size: 1em;
+  height: 1.5em;
+  border-radius: 10px;
+  text-align: right;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.numberBtn {
+  width: 100%;
+  font-size: 0.5em;
+  font-weight: 500;
+  background-color: orange;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.buttons-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin-top: 10px;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.clearbtn {
+  background-color: red;
+  color: white;
+}
+.operationbtn {
+  width: 100%;
+  font-size: 0.5em;
+  font-weight: 500;
+  border: none;
+  padding: 10px;
+}
+
+.equal-sign {
+  color: white;
+  background-color: gray;
+  grid-row-start: 2;
+  grid-row-end: 6;
+  grid-column-start: 4;
+}
+
+.prev {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.next {
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
